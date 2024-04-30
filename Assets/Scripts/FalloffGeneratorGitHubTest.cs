@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public static class FalloffGeneratorGitHubTest {
+public static class FalloffGeneratorGitHubTest : Monobehaviour {
 
 	//// Hola
+	void Start()
+	{
+		Debug.Log("Hola");
+	}
 	// public static float[,] GenerateFalloffMap(int size) {
 	// 	float[,] map = new float[size,size];
 
